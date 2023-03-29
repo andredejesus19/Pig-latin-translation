@@ -2,6 +2,8 @@
 This is my first code in Python 
 
 
+# This code is for translantion the words to pig latin
+
 # This variable is the letters that will end the word
 pyg = 'ay' 
 
@@ -11,7 +13,8 @@ original = input('Enter a word:')
 # Here we testing if teh word was input with only letter and don't have numbers or symbols
 if len(original) > 0 and original.isalpha(): 
 
-    print (original) # Print the word what was input in console
+#   Print the word what was input in console
+    print (original) 
 
 #   Here let's transform all the letters of word in lowercase
     word = original.lower() 
