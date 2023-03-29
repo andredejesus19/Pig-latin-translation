@@ -3,11 +3,14 @@ This is my first code in Python
 
 # This code is for translantion the words to pig latin
 
-pyg = 'ay' # This variable is the letters that will end the word
+# This variable is the letters that will end the word
+pyg = 'ay' 
 
-original = input('Enter a word:') # here input in the console the word what let's translation
+# Here input in the console the word what let's translation
+original = input('Enter a word:') 
 
-if len(original) > 0 and original.isalpha(): # Here we testing if teh word was input with only letter and don't have numbers or symbols
+# Here we testing if teh word was input with only letter and don't have numbers or symbols
+if len(original) > 0 and original.isalpha(): 
 
     print (original) # Print the word what was input in console
 
@@ -19,7 +22,11 @@ if len(original) > 0 and original.isalpha(): # Here we testing if teh word was i
 
 #   Sum of the three variables for make the translation to pig latin!
     new_word= word + first + pyg
+
+#   Let's choose which letter the translated word will start from and finally print
     new_word= new_word[1:len(new_word)]
     print (new_word)
+
+# Case not have a word input the code go print "empty"
 else:
     print ('empty')
