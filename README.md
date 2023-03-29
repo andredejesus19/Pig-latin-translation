@@ -1,7 +1,6 @@
 # Pig-latin-translation
 This is my first code in Python 
 
-# This code is for translantion the words to pig latin
 
 # This variable is the letters that will end the word
 pyg = 'ay' 
